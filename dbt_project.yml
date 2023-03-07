@@ -30,8 +30,8 @@ models:
 
 
 vars:
-  rs_database: '<REPLACE WITH YOUR DB NAME>'    #This is the name of database where the RudderStack tables are all stored
-  rs_schema: '<REPLACE WITH YOUR SCHEMA NAME>'     #This is the name of schema where the RudderStack tables are all stored
+  rs_database: 'RUDDER_EVENTS'    #This is the name of database where the RudderStack tables are all stored
+  rs_schema: 'INFORMATION_SCHEMA'     #This is the name of schema where the RudderStack tables are all stored
   main_id: anonymous_id
   start_dt: '2010-01-01'
   col_timestamp: "{{timestamp_call('timestamp')}}"
